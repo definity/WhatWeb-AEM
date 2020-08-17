@@ -38,7 +38,7 @@ matches [
   # https://github.com/AliasIO/wappalyzer/blob/master/LICENSE
   {:name=>"/etc/designs/", :regexp=>/<script type="text\/javascript" src="\/etc\/designs\//},
   {:name=>"/etc/clientlibs/", :regexp=>/<script type="text\/javascript" src="\/etc\/clientlibs\//},
-  {:name=>"/etc.clientlibs/", :regexp=>/<script type="text\/javascript" src="\/etc\.clientlibs/},
+  {:name=>"/etc.clientlibs/", :regexp=>/<script type="text\/javascript" src="\/etc\.clientlibs\//},
 
 ]
 
