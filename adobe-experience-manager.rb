@@ -17,6 +17,15 @@ website "https://www.adobe.com/marketing/experience-manager.html"
 
 #def passive
 
+# Dorks #
+
+# Borrowing from AEM-dicovery.py
+# https://github.com/0ang3el/aem-hacker/blob/master/LICENSE.txt
+# def by_login_page(base_url, debug, proxy=None):
+dorks [
+  'inurl:/libs/granite/core/content/login.html "Welcome to Adobe Experience Manager"'
+]
+
 # Matches #
 matches [
  
